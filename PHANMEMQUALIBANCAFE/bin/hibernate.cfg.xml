@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+
+        <property name="hibernate.dialect">
+            org.hibernate.dialect.SQLServerDialect
+        </property>
+
+        <property name="hibernate.connection.driver_class">
+            com.microsoft.sqlserver.jdbc.SQLServerDriver
+        </property>
+
+        <!-- Assume test is the database name -->
+
+        <property name="hibernate.connection.url">
+            jdbc:sqlserver://localhost:1433;databaseName=PHANMEMQUANLYCUAHANGCAPHE;
+        </property>
+
+        <property name="hibernate.connection.username">
+            quanttph19447
+        </property>
+
+        <property name="hibernate.connection.password">
+            123456789
+        </property>
+       
+
+    </session-factory>
+</hibernate-configuration>
+
+
