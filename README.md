@@ -1,85 +1,47 @@
-PHẦN MỀM QUẢN LÝ BÁN ĐỒ UỐNG
+# User Guide - Beverage Management Software
 
-Mô tả dự án
+Welcome! This is a README file that introduces the Beverage Management Software. The software is built using Java Swing, MS SQL Server, and Hibernate. The development tools used are NetBeans, Eclipse, and SQL Server Management Studio (SSMS). Below is some information and an overview of the software's functionalities.
 
-Phần mềm quản lý bán đồ uống là một ứng dụng giúp các quán cafe, nhà hàng, quán bar, quầy bán đồ uống có thể quản lý việc bán hàng, quản lý kho hàng, theo dõi doanh thu, và các hoạt động kinh doanh khác.
+## Requirements
 
+- Java Development Kit (JDK)
+- NetBeans or Eclipse IDE
+- MS SQL Server
+- SQL Server Management Studio (SSMS)
 
-Tính năng
+## Installation
 
+1. Install the JDK and set up the development environment with NetBeans or Eclipse.
+1. Install MS SQL Server and SQL Server Management Studio (SSMS).
 
+## Database Configuration
 
-Quản lý sản phẩm:
+1. Launch SQL Server Management Studio (SSMS) and create a new database for the software.
+1. Modify the database connection parameters in the software's configuration file.
 
+## Running the Application
 
+1. Open the software project in NetBeans or Eclipse.
+1. Build and run the project to launch the software.
 
-Thêm, chỉnh sửa, xóa sản phẩm
+## Features
 
-Xem danh sách sản phẩm
+The Beverage Management Software includes the following features:
 
-Tìm kiếm sản phẩm theo tên, mã sản phẩm
+- User authentication: allows users to log in to the software.
+- Beverage management: enables the management of the beverage list, including adding, editing, and deleting beverages.
+- Payment: provides a feature for processing payments for beverage orders.
+- Order management: allows users to manage beverage orders, including viewing, editing, and cancelling orders.
+- Search: provides a search functionality to find specific beverages or orders.
+- Statistics and reporting: generates statistics and reports related to beverage sales.
+- Promotions: supports the management and application of promotional offers.
+- Ingredient management: enables the management of beverage ingredients, including adding, editing, and deleting ingredients.
+- Purchase and return: allows users to manage the purchase and return of beverage ingredients.
 
+Explore the software and make use of these functionalities to efficiently manage beverage operations. If you encounter any issues or have any questions, please feel free to contact us.
 
+## Contribution
 
+If you would like to contribute to this project, please create a pull request, and we will review it.
 
-Quản lý đặt hàng:
-
-
-
-Thêm, chỉnh sửa, xóa đơn đặt hàng
-
-Xem danh sách đơn đặt hàng
-
-Tìm kiếm đơn đặt hàng theo mã đơn hàng, tên khách hàng
-
-
-
-
-Quản lý khách hàng:
-
-
-
-Thêm, chỉnh sửa, xóa khách hàng
-
-Xem danh sách khách hàng
-
-Tìm kiếm khách hàng theo tên, số điện thoại
-
-
-
-
-Quản lý nhân viên:
-
-
-
-Thêm, chỉnh sửa, xóa nhân viên
-
-Xem danh sách nhân viên
-
-Tìm kiếm nhân viên theo tên, số điện thoại
-
-
-
-
-Quản lý doanh thu:
-
-Xem tổng doanh thu theo ngày, tháng, năm
-
-Thống kê doanh thu theo sản phẩm, khách hàng, nhân viên
-
-
-
-
-Công nghệ sử dụng
-
-
-Front-end: JavaSwing
-
-Back-end: Hibernate
-
-Cơ sở dữ liệu: MS SQL
-
-
-Tác giả
-
-Dự án này được phát triển bởi Nguyễn Đác Hoàng.
+Thank you for using the Beverage Management Software. We hope it helps streamline your beverage business operations!
